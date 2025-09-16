@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Archivio by Cipo</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0047AB; /* Blu cobalto */
+      color: #fff;
+      text-align: center;
+    }
+
+    /* Banner scorrevole con sfumatura blu */
+    header {
+      background: linear-gradient(180deg, #001f4d, #003b8e, #0047AB);
+      padding: 15px;
+      font-size: 20px;
+      font-weight: bold;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      overflow: hidden;
+      height: 50px;
+    }
+    header span {
+      display: inline-block;
+      white-space: nowrap;
+      padding-left: 100%;
+      animation: scrollBanner 12s linear infinite;
+    }
+    @keyframes scrollBanner {
+      0%   { transform: translateX(0); }
+      100% { transform: translateX(-100%); }
+    }
+
+    .file {
+      margin: 14px;
+      padding: 9px;
+      background: #003b8e;
+      border-radius: 9px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    }
+    .file a {
+      display: block;
+      width: 92%;
+      padding: 14px;
+      font-size: 18px;
+      background: #3a86ff;
+      border-radius: 8px;
+      color: #fff;
+      text-decoration: none;
+      margin-bottom: 8px;
+      transition: background 0.3s;
+    }
+    .file a:hover {
+      background: #265ecf;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <span>Benvenuto Giovanni nel tuo archivio personale. Cosa vuoi fare oggi?</span>
+  </header>
+
+  <div class="file">
+    <a href="https://drive.google.com/file/d/1b4CNJzTVmkZQ-_neXcgEfwNM0dKH_CRF/view?usp=sharing">WebMail EI</a>
+  </div>
+
+  <div class="file">
+    <a href="https://drive.google.com/file/d/1dtiQP8w__HCvCyZgRypIC6jLjjjj1UwO/view?usp=drive_link">Musica per passeggiare</a>
+  </div>
+
+  <div class="file">
+    <a href="https://drive.google.com/file/d/1Eg0p70b8SYTBXcvNh4p90ABMUOSRXSHp/view?usp=drive_link">Documenti Personali</a>
+  </div>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
